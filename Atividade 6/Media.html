@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <script>
+      var nome,
+          not1,
+          not2,
+          not3,
+          media;
+        nome = prompt("Insira seu nome: ");
+        not1 = prompt("Insira a 1ª nota:");
+        not2 = prompt("Insira a 2ª nota:");
+        not3 = prompt("Insira a 3ª nota:");
+     
+        media = (parseFloat(not1) + parseFloat(not2) + parseFloat(not3)) / 3;
+        document.write("Média do aluno : "+ media.toFixed(2));
+    </script>
+</body>
+</html>

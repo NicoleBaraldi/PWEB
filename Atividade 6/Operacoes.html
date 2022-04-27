@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <script>
+      var num1,
+          num2,
+          soma,
+          sub,
+          prod,
+          div,
+          resto;
+         
+        num1 = prompt("Insira o 1º número: ");
+        num2 = prompt("Insira o 2º número: ");
+       
+     
+        soma = parseFloat(num1) + parseFloat(num2);
+        document.write("Soma dos dois números : "+ soma.toFixed(2));
+
+        sub = parseFloat(num1) - parseFloat(num2);
+        document.write("<p>Subtração do primeiro pelo segundo : "+ sub.toFixed(2));
+
+        prod = parseFloat(num1) * parseFloat(num2);
+        document.write("<p>Produto dos dois números : "+ prod.toFixed(2));
+
+        div =  parseFloat(num1) / parseFloat(num2);
+        document.write("<p>Divisão do primeiro pelo segundo : "+ div.toFixed(2));
+
+        resto =  parseFloat(num1) % parseFloat(num2);
+        document.write("<p>O resto da divisão do primeiro pelo segundo : "+ resto.toFixed(2));
+
+    </script>
+</body>
+</html>
